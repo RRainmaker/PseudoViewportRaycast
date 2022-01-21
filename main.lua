@@ -512,7 +512,6 @@ end
 local  VpfRayCast = {}
 
 local Runservice = game:GetService("RunService")
-local GJK = require(script.GJK)
 local FRONT = Vector3.new(0, 0, -1)
 local UP = Vector3.new(0,1,0)
 local HitTestIncrement = .04
